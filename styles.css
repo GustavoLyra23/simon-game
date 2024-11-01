@@ -1,9 +1,9 @@
 body {
-  background-color: black;
+  background-color: burlywood;
 }
 
 h1 {
-  color: white;
+  color: black;
   font-size: 50px;
   text-align: center;
   font-family: "Press Start 2P", cursive;
@@ -20,9 +20,7 @@ h1 {
   height: 200px;
   padding: 10px 20px;
   width: 200px;
-  background-color: #4caf50;
-  color: white;
-  border: 5px solid white;
+  border: 5px solid black;
   border-radius: 20px;
   cursor: pointer;
   text-align: center;
@@ -31,4 +29,20 @@ h1 {
 .game {
   display: flex;
   justify-content: center;
+}
+
+.g {
+  background-color: #4caf50;
+}
+
+.r {
+  background-color: #f44336;
+}
+
+.y {
+  background-color: #ffeb3b;
+}
+
+.b {
+  background-color: #2196f3;
 }
