@@ -46,3 +46,9 @@ h1 {
 .b {
   background-color: #2196f3;
 }
+
+.pressed {
+  background-color: #ccc;
+  transform: scale(0.95);
+  box-shadow: 0 5px #666;
+}
